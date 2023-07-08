@@ -1,0 +1,16 @@
+{
+  "name": "eslint-gdg-tashkent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i -D file:eslint-plugin-custom-rules && eslint --config ./.eslintrc.js ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-plugin-custom-rules": "file:eslint-plugin-custom-rules"
+  }
+}
